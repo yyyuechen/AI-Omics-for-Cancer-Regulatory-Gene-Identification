@@ -1,5 +1,8 @@
 # 04_WGCNA_module_analysis_and_DEG_integration.R
 
+# This script performs WGCNA on the batch-corrected HCC expression matrix to identify co-expression modules, 
+# evaluate module-trait relationships, extract module genes, and integrate key modules with DEG results to prioritize tumor-associated candidate genes.
+
 ## Prevent automatic conversion of strings to factors
 options(stringsAsFactors = FALSE)
 
