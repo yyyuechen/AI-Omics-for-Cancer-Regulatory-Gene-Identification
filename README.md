@@ -82,6 +82,10 @@ Benchmarks multiple machine-learning pipelines, compares AUC across cohorts, and
 
 Validates the final selected gene signature using logistic regression, nomogram, calibration, DCA, ROC analysis, and SHAP-based model interpretation.
 
+### 09_Molecular_docking_analysis
+
+Validates the potential binding interactions between AFB1 and the aforementioned core genes.
+
 ## Recommended execution order
 
 Run the scripts in the following order:
@@ -95,6 +99,7 @@ Run the scripts in the following order:
 - 06_data_preparation_and_LassoRF.R
 - 07_machine_learning_model_comparison.R
 - 08_final_signature_model_validation_and_interpretation.R
+- 09_Molecular_docking_analysis
 
 
 ## Key outputs
