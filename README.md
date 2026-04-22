@@ -1,6 +1,5 @@
 # AI-Omics-for-Cancer-Regulatory-Gene-Identification
 
-[![R](https://img.shields.io/badge/Language-R-blue)](#)
 [![Workflow](https://img.shields.io/badge/Analysis-Transcriptomics%20%7C%20ML%20%7C%20PPI-green)](#)
 [![Status](https://img.shields.io/badge/Project-Reproduction-orange)](#)
 
