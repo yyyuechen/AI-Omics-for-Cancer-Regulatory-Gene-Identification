@@ -29,6 +29,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 
 ---
 
+```markdown
 ## Repository structure
 
 ```text
