@@ -128,6 +128,10 @@ Depending on the script, representative outputs include:
 - 07: multi-model comparison and feature-stability analysis
 - 08: final signature validation and interpretation
 
+## Data and results archive
+
+The full data and results archive (`data_n_results.zip`) is provided through the GitHub Releases section because it is too large for standard repository uploads.
+
 ## Requirements
 
 This project is mainly implemented in R. Commonly used packages include:
