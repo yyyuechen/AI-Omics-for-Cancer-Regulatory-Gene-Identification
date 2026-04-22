@@ -86,7 +86,8 @@ Run the scripts in the following order:
 06_data_preparation_and_LassoRF.R
 07_machine_learning_model_comparison.R
 08_final_signature_model_validation_and_interpretation.R
-Key outputs
+
+### Key outputs
 
 Depending on the script, representative outputs include:
 
@@ -101,7 +102,9 @@ train.csv / test.csv
 model risk matrices and class matrices
 AUC comparison tables and heatmaps
 final diagnostic-model outputs, including nomogram, calibration, DCA, ROC, and SHAP plots
-Notes
+
+### Notes
+
 Most scripts currently use local absolute paths and should be adapted to your own environment before running.
 Some steps are designed for paper reproduction, so certain gene lists or figure-oriented steps may include alignment with published results.
 Scripts 06–08 represent three related but distinct machine-learning stages:
