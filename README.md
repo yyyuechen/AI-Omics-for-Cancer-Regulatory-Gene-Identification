@@ -40,7 +40,8 @@ scripts/
 ├── 05_PPI_and_enrichment_analysis.R
 ├── 06_data_preparation_and_LassoRF.R
 ├── 07_machine_learning_model_comparison.R
-└── 08_final_signature_model_validation_and_interpretation.R```
+└── 08_final_signature_model_validation_and_interpretation.R
+```
 
 ## Workflow
 ### 01_HCCdata_preparation.R
