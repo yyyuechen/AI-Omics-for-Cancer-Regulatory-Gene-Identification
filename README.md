@@ -31,7 +31,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 
 ## Repository structure
 
-
+```text
 scripts/
 ├── 01_HCCdata_preparation.R
 ├── 02_target_database_integration.R
@@ -108,12 +108,12 @@ Depending on the script, representative outputs include:
 
 ## Notes
 
-Most scripts currently use local absolute paths and should be adapted to your own environment before running.
-Some steps are designed for paper reproduction, so certain gene lists or figure-oriented steps may include alignment with published results.
-Scripts 06–08 represent three related but distinct machine-learning stages:
-06: data preparation and baseline Lasso + RF workflow
-07: multi-model comparison and feature-stability analysis
-08: final signature validation and interpretation
+- Most scripts currently use local absolute paths and should be adapted to your own environment before running.
+- Some steps are designed for paper reproduction, so certain gene lists or figure-oriented steps may include alignment with published results.
+- Scripts 06–08 represent three related but distinct machine-learning stages:
+- 06: data preparation and baseline Lasso + RF workflow
+- 07: multi-model comparison and feature-stability analysis
+- 08: final signature validation and interpretation
 
 ## Requirements
 
