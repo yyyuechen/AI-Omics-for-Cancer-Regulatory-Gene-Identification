@@ -90,7 +90,7 @@ Run the scripts in the following order:
 - 08_final_signature_model_validation_and_interpretation.R
 
 
-### Key outputs
+## Key outputs
 
 Depending on the script, representative outputs include:
 
@@ -106,7 +106,7 @@ Depending on the script, representative outputs include:
 - AUC comparison tables and heatmaps
 - final diagnostic-model outputs, including nomogram, calibration, DCA, ROC, and SHAP plots
 
-### Notes
+## Notes
 
 Most scripts currently use local absolute paths and should be adapted to your own environment before running.
 Some steps are designed for paper reproduction, so certain gene lists or figure-oriented steps may include alignment with published results.
@@ -119,24 +119,24 @@ Scripts 06–08 represent three related but distinct machine-learning stages:
 
 This project is mainly implemented in R. Commonly used packages include:
 
-GEOquery
-dplyr
-tidyverse
-data.table
-limma
-sva
-WGCNA
-ggplot2
-pheatmap
-clusterProfiler
-org.Hs.eg.db
-glmnet
-randomForestSRC
-caret
-pROC
-rms
-rmda
-shapviz
+- GEOquery
+- dplyr
+- tidyverse
+- data.table
+- limma
+- sva
+- WGCNA
+- ggplot2
+- pheatmap
+- clusterProfiler
+- org.Hs.eg.db
+- glmnet
+- randomForestSRC
+- caret
+- pROC
+- rms
+- rmda
+- shapviz
 
 ## Citation
 
