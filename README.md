@@ -145,4 +145,4 @@ This project is mainly implemented in R. Commonly used packages include:
 
 ## Citation
 
-This repository is a reproduction-oriented workflow based on a published study of AFB1-induced hepatocellular carcinoma. Please cite the original paper if you use this workflow in your research.
+This repository is a reproduction-oriented workflow based on a published study of AFB1-induced hepatocellular carcinoma. Please cite the original paper if you use this workflow in your research: Gao J, Zhang M, Chen Q, Ye K, Wu J, Wang T, Zhang P, Feng G. Integrating machine learning and molecular docking to decipher the molecular network of aflatoxin B1-induced hepatocellular carcinoma. International Journal of Surgery. 2025 Jul 1;111(7):4539-49.
