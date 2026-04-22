@@ -4,6 +4,11 @@
 [![Workflow](https://img.shields.io/badge/Analysis-Transcriptomics%20%7C%20ML%20%7C%20PPI-green)](#)
 [![Status](https://img.shields.io/badge/Project-Reproduction-orange)](#)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/yyyuechen/AI-Omics-for-Cancer-Regulatory-Gene-Identification)
+![GitHub repo size](https://img.shields.io/github/repo-size/yyyuechen/AI-Omics-for-Cancer-Regulatory-Gene-Identification)
+![GitHub top language](https://img.shields.io/github/languages/top/yyyuechen/AI-Omics-for-Cancer-Regulatory-Gene-Identification)
+![GitHub stars](https://img.shields.io/github/stars/yyyuechen/AI-Omics-for-Cancer-Regulatory-Gene-Identification?style=social)
+
 A reproduction-oriented workflow for identifying candidate regulatory genes in **aflatoxin B1 (AFB1)-induced hepatocellular carcinoma (HCC)** using transcriptomic analysis, target-database integration, co-expression network analysis, machine learning, and functional interpretation.
 
 ---
