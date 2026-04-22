@@ -31,7 +31,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 
 ## Repository structure
 
-```text
+
 scripts/
 ├── 01_HCCdata_preparation.R
 ├── 02_target_database_integration.R
@@ -79,32 +79,32 @@ Validates the final selected gene signature using logistic regression, nomogram,
 
 Run the scripts in the following order:
 
-```markdown id="j9n9fh"
-`01_HCCdata_preparation.R`
-`02_target_database_integration.R`
-`03_batch_correction_and_DEG_analysis.R`
-`04_WGCNA_module_analysis_and_DEG_integration.R`
-`05_PPI_and_enrichment_analysis.R`
-`06_data_preparation_and_LassoRF.R`
-`07_machine_learning_model_comparison.R`
-`08_final_signature_model_validation_and_interpretation.R`
+
+-01_HCCdata_preparation.R
+-02_target_database_integration.R
+-03_batch_correction_and_DEG_analysis.R
+-04_WGCNA_module_analysis_and_DEG_integration.R
+-05_PPI_and_enrichment_analysis.R
+-06_data_preparation_and_LassoRF.R
+-07_machine_learning_model_comparison.R
+-08_final_signature_model_validation_and_interpretation.R
 
 
 ### Key outputs
 
 Depending on the script, representative outputs include:
 
-cleaned gene-level expression matrices
-phenotype tables
-DEG result tables
-WGCNA module gene lists
-candidate-gene integration tables
-PPI network inputs and plots
-GO / KEGG enrichment results
-train.csv / test.csv
-model risk matrices and class matrices
-AUC comparison tables and heatmaps
-final diagnostic-model outputs, including nomogram, calibration, DCA, ROC, and SHAP plots
+-cleaned gene-level expression matrices
+-phenotype tables
+-DEG result tables
+-WGCNA module gene lists
+-candidate-gene integration tables
+-PPI network inputs and plots
+-GO / KEGG enrichment results
+-train.csv / test.csv
+-model risk matrices and class matrices
+-AUC comparison tables and heatmaps
+-final diagnostic-model outputs, including nomogram, calibration, DCA, ROC, and SHAP plots
 
 ### Notes
 
