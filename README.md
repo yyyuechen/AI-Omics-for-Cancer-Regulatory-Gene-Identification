@@ -31,6 +31,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 
 ## Repository structure
 
+```text
 scripts/
 ├── 01_HCCdata_preparation.R
 ├── 02_target_database_integration.R
@@ -78,14 +79,16 @@ Validates the final selected gene signature using logistic regression, nomogram,
 
 Run the scripts in the following order:
 
-01_HCCdata_preparation.R
-02_target_database_integration.R
-03_batch_correction_and_DEG_analysis.R
-04_WGCNA_module_analysis_and_DEG_integration.R
-05_PPI_and_enrichment_analysis.R
-06_data_preparation_and_LassoRF.R
-07_machine_learning_model_comparison.R
-08_final_signature_model_validation_and_interpretation.R
+```markdown id="j9n9fh"
+`01_HCCdata_preparation.R`
+`02_target_database_integration.R`
+`03_batch_correction_and_DEG_analysis.R`
+`04_WGCNA_module_analysis_and_DEG_integration.R`
+`05_PPI_and_enrichment_analysis.R`
+`06_data_preparation_and_LassoRF.R`
+`07_machine_learning_model_comparison.R`
+`08_final_signature_model_validation_and_interpretation.R`
+
 
 ### Key outputs
 
