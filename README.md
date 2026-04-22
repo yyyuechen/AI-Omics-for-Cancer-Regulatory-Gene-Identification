@@ -25,7 +25,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 - final signature-model validation and interpretation
 
 <p align="center">
-  <img src="images/workflow_overview.png" alt="Workflow overview" width="900"><br>
+  <img src="images/overview_workflow.png" alt="Workflow overview" width="900"><br>
   <em>Figure. Overall workflow of candidate-gene identification and final signature validation.</em>
 </p>
 
