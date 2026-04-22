@@ -23,7 +23,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 - PPI network and enrichment analysis
 - machine-learning-based feature selection and benchmarking
 - final signature-model validation and interpretation
-- molecular docking
+- molecular docking analysis and interaction visualization
 
 <p align="center">
   <img src="images/overview_workflow.png" alt="Workflow overview" width="900"><br>
@@ -46,7 +46,7 @@ scripts/
 ├── 06_data_preparation_and_LassoRF.R
 ├── 07_machine_learning_model_comparison.R
 └── 08_final_signature_model_validation_and_interpretation.R
-└── 09_Molecular_docking_analysis
+└── 09_Molecular_docking_analysis.txt
 ```
 
 ## Workflow
@@ -82,9 +82,9 @@ Benchmarks multiple machine-learning pipelines, compares AUC across cohorts, and
 
 Validates the final selected gene signature using logistic regression, nomogram, calibration, DCA, ROC analysis, and SHAP-based model interpretation.
 
-### 09_Molecular_docking_analysis
+### 09_Molecular_docking_analysis.txt
 
-Validates the potential binding interactions between AFB1 and the aforementioned core genes.
+Provides a practical molecular docking workflow for assessing the binding of AFB1 to candidate target proteins. The tutorial covers ligand preparation from PubChem, receptor preparation from UniProt/RCSB PDB, pdbqt conversion with AutoDockTools, docking-grid definition, docking with AutoDock Vina, pose inspection, and interaction visualization in PyMOL and Discovery Studio 2019.
 
 ## Recommended execution order
 
@@ -99,7 +99,7 @@ Run the scripts in the following order:
 - 06_data_preparation_and_LassoRF.R
 - 07_machine_learning_model_comparison.R
 - 08_final_signature_model_validation_and_interpretation.R
-- 09_Molecular_docking_analysis
+- 09_Molecular_docking_analysis.txt
 
 
 ## Key outputs
@@ -117,6 +117,7 @@ Depending on the script, representative outputs include:
 - model risk matrices and class matrices
 - AUC comparison tables and heatmaps
 - final diagnostic-model outputs, including nomogram, calibration, DCA, ROC, and SHAP plots
+- docking pose visualization and interaction figures
 
 ## Notes
 
