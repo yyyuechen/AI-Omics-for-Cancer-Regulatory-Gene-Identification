@@ -1,0 +1,23 @@
+Practical molecular docking workflow
+
+1) Prepare the ligand
+Download the AFB1 structure file from PubChem in SDF format and keep the SMILES record as well. Then open the ligand in a molecular editor, perform energy minimization, and export the optimized structure as a mol2 file.
+
+2) Prepare the receptor protein
+Search the target protein in UniProt, then retrieve the corresponding 3D structure from RCSB PDB. Open the protein structure in PyMOL, remove solvent molecules and unwanted organic molecules, and export the cleaned receptor structure as a pdb file.
+
+3) Convert files for docking
+Use AutoDockTools to add hydrogens and charges to both receptor and ligand, then convert them into the pdbqt format required by AutoDock Vina.
+
+4) Define the docking grid
+Set the docking box around the predicted active site and adjust the grid dimensions according to ligand size and expected binding mode.
+
+5) Run AutoDock Vina
+Prepare a configuration file and run docking from the command line. The tutorial shows the Vina command in this form:
+vina.exe --config configdata.txt --log data.txt --out "Drug and protein molecule docking.pdbqt"
+
+6) Inspect docking poses
+After docking, review the output poses and select the most reasonable conformations based on docking score and structural plausibility.
+
+7) Visualize interactions
+Load the receptor and docked complex into PyMOL for 3D inspection, and use Discovery Studio 2019 for interaction analysis and final figure generation.
