@@ -31,7 +31,6 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 
 ## Repository structure
 
-```text
 scripts/
 ├── 01_HCCdata_preparation.R
 ├── 02_target_database_integration.R
