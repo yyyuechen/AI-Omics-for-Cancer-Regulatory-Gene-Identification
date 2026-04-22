@@ -80,7 +80,6 @@ Run the scripts in the following order:
 
 01_HCCdata_preparation.R
 02_target_database_integration.R
-02_target_database_integration.R
 03_batch_correction_and_DEG_analysis.R
 04_WGCNA_module_analysis_and_DEG_integration.R
 05_PPI_and_enrichment_analysis.R
