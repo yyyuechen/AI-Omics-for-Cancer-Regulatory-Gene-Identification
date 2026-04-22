@@ -1,5 +1,7 @@
 Practical molecular docking workflow
 
+#This step to confirm the potential binding interactions between AFB1 and the aforementioned core genes (RND3, AURKA, PCK1, BCAT2, UCK2, and CCNB1).
+
 1) Prepare the ligand
 Download the AFB1 structure file from PubChem in SDF format and keep the SMILES record as well. Then open the ligand in a molecular editor, perform energy minimization, and export the optimized structure as a mol2 file.
 
