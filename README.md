@@ -23,6 +23,7 @@ This repository reproduces a published study on **AFB1-induced HCC** by integrat
 - PPI network and enrichment analysis
 - machine-learning-based feature selection and benchmarking
 - final signature-model validation and interpretation
+- molecular docking
 
 <p align="center">
   <img src="images/overview_workflow.png" alt="Workflow overview" width="900"><br>
@@ -45,6 +46,7 @@ scripts/
 ├── 06_data_preparation_and_LassoRF.R
 ├── 07_machine_learning_model_comparison.R
 └── 08_final_signature_model_validation_and_interpretation.R
+└── 09_Molecular_docking_analysis
 ```
 
 ## Workflow
